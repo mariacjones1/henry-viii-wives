@@ -121,13 +121,14 @@ main {
     grid-template-columns: 1fr, 2fr, 1fr;
     grid-auto-flow: dense;
     margin-right: 5vw;
+    place-items: center;
 }
 
 .bio-text {
     grid-column: span 2;
     padding: 5%;
     margin: 5%;
-    background:rgba(161,161,161, 0.3)
+    background:rgba(161,161,161, 0.3);
 }
 
 .bio img {
