@@ -107,6 +107,11 @@ main {
     color: inherit;
 }
 
+#timeline > div:hover {
+    font-size: 110%;
+    font-weight: bold;
+}
+
 /* Bios */
 
 .bio {
