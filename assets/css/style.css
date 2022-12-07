@@ -11,6 +11,16 @@ body {
     font-family: Merriweather, serif;
 }
 
+/* Headings */
+
+h1 {
+    font-family: 'Marcellus SC', serif;
+}
+
+h2 {
+    font-family: Marcellus, serif;
+}
+
 /* Logo and navigation menu */
 
 header {
