@@ -104,12 +104,21 @@ main {
 .bio {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: 350px; */
     grid-auto-flow: dense;
+    place-items: center;
 }
 
 .bio-text {
     grid-column: span 2;
     align-self: center;
+}
+
+.bio img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 .left {
