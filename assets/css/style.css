@@ -125,7 +125,9 @@ main {
 
 .bio-text {
     grid-column: span 2;
-    padding: 10% 5%;
+    padding: 5%;
+    margin: 5%;
+    background:rgba(161,161,161, 0.3)
 }
 
 .bio img {
@@ -141,5 +143,9 @@ main {
 }
 
 #boleyn-bio, #cleves-bio, #parr-bio {
-    padding-left: 0;
+    margin-left: 0;
+}
+
+#aragon-bio, #seymour-bio, #howard-bio {
+    margin-right: 0;
 }
