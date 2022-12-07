@@ -11,6 +11,8 @@ body {
     font-family: Merriweather, serif;
 }
 
+/* Logo and navigation menu */
+
 header {
     background-color: #eeeeee;
     height: 75px;
@@ -18,3 +20,13 @@ header {
     top: 0;
     width: 100%;
 }
+
+header a {
+    text-decoration: none;
+}
+
+ #logo {
+    font-size: 300%;
+    margin: 10px;
+    color: #310151;
+ }
