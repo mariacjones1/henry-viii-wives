@@ -44,3 +44,7 @@ header a {
     flex-grow: 1;
  }
 
+.menu {
+    color: #310151;
+    font-family: Marcellus, serif;
+}
