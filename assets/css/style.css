@@ -105,3 +105,7 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
+.bio-text {
+    grid-column: span 2;
+}
