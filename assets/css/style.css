@@ -27,7 +27,7 @@ h2 {
 header {
     background-color: #eeeeee;
     height: 75px;
-    position: sticky;
+    position: fixed;
     top: 0;
     width: 100%;
     display: flex;
