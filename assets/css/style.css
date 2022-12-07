@@ -44,9 +44,11 @@ header a {
     flex-grow: 1;
  }
 
-.menu {
+.menu > ul {
     color: #310151;
     font-family: Marcellus, serif;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .menu li {
