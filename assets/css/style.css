@@ -98,3 +98,10 @@ main {
     border: 3px solid #310151;
     left: 5px;
 }
+
+/* Bios */
+
+.bio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
