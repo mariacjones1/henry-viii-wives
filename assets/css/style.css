@@ -87,3 +87,14 @@ main {
     padding: 4vh 1vw;
     border-left: 3px solid #310151;
 }
+
+#timeline > div::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #FFF;
+    border: 3px solid #310151;
+    left: 5px;
+}
