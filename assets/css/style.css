@@ -63,3 +63,7 @@ header a {
     color: #FFE9FF;
     background-color: #310151;    
 }
+
+.active {
+    border: 2px solid #310151;
+}
