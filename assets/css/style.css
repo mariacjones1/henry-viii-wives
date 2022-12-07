@@ -1,1 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Marcellus+SC&family=Merriweather&display=swap');
+
+body {    
+    background: rgba(255, 233, 255);
+    font-family: Merriweather, serif;
+}
