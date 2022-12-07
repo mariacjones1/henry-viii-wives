@@ -35,6 +35,7 @@ header {
 
 header a {
     text-decoration: none;
+    color: inherit;
 }
 
  #logo {
