@@ -149,3 +149,15 @@ main {
 #aragon-bio, #seymour-bio, #howard-bio {
     margin-right: 0;
 }
+
+/* Footer */
+
+footer {
+    width: 70%;
+    margin: 2% 15%;
+    text-align: center;
+}
+
+.about {
+    font-size: 75%;    
+}
