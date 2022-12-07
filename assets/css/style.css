@@ -74,7 +74,7 @@ header a {
 
 main {
     display: grid;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 15% 85%;
 }
 
 /* Timeline */
@@ -103,9 +103,9 @@ main {
 
 .bio {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr, 2fr, 1fr;
     grid-auto-flow: dense;
-    /* place-items: center; */
+    place-items: center;
 }
 
 .bio-text {
