@@ -48,3 +48,10 @@ header a {
     color: #310151;
     font-family: Marcellus, serif;
 }
+
+.menu li {
+    list-style-type: none;
+    margin: 30px 25px;
+    padding: 10px;
+    border-radius: 5px;
+}
