@@ -79,7 +79,11 @@ main {
 
 /* Timeline */
 
+#timeline {
+    margin: 11px;
+}
+
 #timeline > div {
-    padding: 4vh 0;
+    padding: 4vh 1vw;
     border-left: 3px solid #310151;
 }
