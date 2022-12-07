@@ -105,12 +105,11 @@ main {
     display: grid;
     grid-template-columns: 1fr, 2fr, 1fr;
     grid-auto-flow: dense;
-    place-items: center;
 }
 
 .bio-text {
     grid-column: span 2;
-    align-self: center;
+    padding: 10% 5%;
 }
 
 .bio img {
