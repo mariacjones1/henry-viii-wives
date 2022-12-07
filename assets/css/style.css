@@ -99,7 +99,7 @@ main {
     border-radius: 10px;
     background-color: #FFF;
     border: 3px solid #310151;
-    left: 5px;
+    left: -6px;
 }
 
 #timeline a {
