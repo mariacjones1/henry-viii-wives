@@ -9,6 +9,7 @@
 body {    
     background: rgba(255, 233, 255);
     font-family: Merriweather, serif;
+    color: #310151;
 }
 
 /* Headings */
@@ -41,12 +42,10 @@ header a {
  #logo {
     font-size: 150%;
     margin: 10px;
-    color: #310151;
     flex-grow: 1;
  }
 
 .menu > ul {
-    color: #310151;
     font-family: Marcellus, serif;
     display: flex;
     justify-content: flex-end;
@@ -83,5 +82,4 @@ main {
 #timeline > div {
     padding: 4vh 0;
     border-left: 3px solid #310151;
-    color: #310151;
 }
