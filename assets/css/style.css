@@ -77,3 +77,11 @@ main {
     display: grid;
     grid-template-columns: 15% 85%;
 }
+
+/* Timeline */
+
+#timeline > div {
+    padding: 4vh 0;
+    border-left: 3px solid #310151;
+    color: #310151;
+}
