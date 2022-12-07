@@ -11,3 +11,10 @@ body {
     font-family: Merriweather, serif;
 }
 
+header {
+    background-color: #eeeeee;
+    height: 75px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
