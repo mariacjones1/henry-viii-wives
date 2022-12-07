@@ -55,11 +55,14 @@ header a {
 .menu li {
     list-style-type: none;
     margin: 30px 25px;
+}
+
+.menu a {
     padding: 10px;
     border-radius: 5px;
 }
 
-.menu li:hover {
+.menu a:hover {
     color: #FFE9FF;
     background-color: #310151;    
 }
