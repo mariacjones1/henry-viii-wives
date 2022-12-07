@@ -81,6 +81,9 @@ main {
 
 #timeline {
     margin: 11px;
+    position: sticky;
+    top: 86px;
+    align-self: start;
 }
 
 #timeline > div {
