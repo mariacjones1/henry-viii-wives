@@ -137,3 +137,7 @@ main {
 .right {
     grid-column: 3;
 }
+
+#boleyn-bio, #cleves-bio, #parr-bio {
+    padding-left: 0;
+}
