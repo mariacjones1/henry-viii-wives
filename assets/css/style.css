@@ -75,6 +75,7 @@ header a {
 main {
     display: grid;
     grid-template-columns: 15% 85%;
+    margin-top: 75px;
 }
 
 /* Timeline */
