@@ -20,6 +20,7 @@ header {
     top: 0;
     width: 100%;
     display: flex;
+    justify-content: flex-end;
 }
 
 header a {
@@ -27,7 +28,9 @@ header a {
 }
 
  #logo {
-    font-size: 300%;
+    font-size: 150%;
     margin: 10px;
     color: #310151;
+    flex-grow: 1;
  }
+
