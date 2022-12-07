@@ -99,6 +99,11 @@ main {
     left: 5px;
 }
 
+#timeline a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* Bios */
 
 .bio {
