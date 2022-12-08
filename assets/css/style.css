@@ -215,4 +215,12 @@ footer {
     .right {
         grid-column-start: 1;
     }
+
+    #boleyn-bio, #cleves-bio, #parr-bio {
+        margin-left: 5%;
+    }
+    
+    #aragon-bio, #seymour-bio, #howard-bio {
+        margin-right: 5%;
+    }
 }
