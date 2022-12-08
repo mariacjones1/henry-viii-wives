@@ -253,6 +253,11 @@ footer {
     #timeline > div {
         font-size: 90%;
     }
+
+    #timeline > div::before {
+        width: 7.5px;
+        height: 7.5px;
+    }
 }
 
 @media screen and (max-width: 355px) {
