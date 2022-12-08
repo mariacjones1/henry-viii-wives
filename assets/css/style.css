@@ -197,5 +197,8 @@ footer {
 
     main {
         margin-top: 100px;
+        grid-template-columns: 30% 70%;
     }
+
+    
 }
