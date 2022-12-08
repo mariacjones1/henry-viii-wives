@@ -128,12 +128,17 @@ main {
     grid-column: span 2;
     padding: 5%;
     margin: 5%;
+    width: 85%;
     background:rgba(161,161,161, 0.3);
 }
 
 .bio-text > h3 {
     padding-bottom: 5%;
     font-size: 150%;
+}
+
+.bio-text > p {
+    padding-bottom: 1vh;
 }
 
 .bio img {
