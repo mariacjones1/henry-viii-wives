@@ -194,6 +194,10 @@ footer {
     padding: 2.5% 0;
 }
 
+.posts p {
+    padding: 1% 0;
+}
+
 /* Media queries */
 
 @media screen and (max-width: 1150px) {
