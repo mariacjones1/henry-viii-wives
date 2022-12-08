@@ -246,7 +246,7 @@ footer {
     }
 
     #timeline > div {
-        padding-left: 2.5vw;
+        padding: 1.5vh 1vw 1vh 2.5vw;
         font-size: 90%;
     }
 }
