@@ -155,13 +155,14 @@ main {
 
 footer {
     margin: 2%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
 }
 
 .about {
     font-size: 75%;
-    width: 50%; 
+    width: 65%; 
 }
 
 .subscribe {
