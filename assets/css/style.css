@@ -154,9 +154,9 @@ main {
 /* Footer */
 
 footer {
-    width: 70%;
-    margin: 2% 15%;
-    text-align: center;
+    width: 50%;
+    margin: 2%;
+    text-align: left;
 }
 
 .about {
