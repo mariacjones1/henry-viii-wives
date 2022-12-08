@@ -89,7 +89,7 @@ main {
 }
 
 #timeline > div {
-    padding: 15% 1vw;
+    padding: 12.5% 1vw;
     border-left: 3px solid #310151;
 }
 
@@ -204,7 +204,6 @@ footer {
         top: 111px;
     }
 }
-
 
 @media screen and (max-width: 750px) {
     body {
