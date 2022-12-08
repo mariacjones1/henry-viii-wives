@@ -227,11 +227,13 @@ footer {
 }
 
 @media screen and (max-width: 675px) {
-    header {
-        height: 150px;
-    }
-
     body {
         font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    header {
+        height: 150px;
     }
 }
