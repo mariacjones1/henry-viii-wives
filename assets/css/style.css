@@ -203,6 +203,13 @@ footer {
     #timeline {
         top: 111px;
     }
+}
+
+
+@media screen and (max-width: 750px) {
+    body {
+        font-size: 90%;
+    }
 
     .bio {
         grid-template-columns: 100%;
@@ -226,12 +233,6 @@ footer {
     }
 }
 
-@media screen and (max-width: 675px) {
-    body {
-        font-size: 90%;
-    }
-}
-
 @media screen and (max-width: 590px) {
     header {
         height: 150px;
@@ -246,7 +247,7 @@ footer {
     }
 
     #timeline > div {
-        padding: 1.5vh 1vw 1vh 2.5vw;
+        padding: 1.5vh 1vw 1.5vh 2.5vw;
         font-size: 90%;
     }
 }
