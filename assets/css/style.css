@@ -194,4 +194,8 @@ footer {
     .menu li {
         margin: 0 1vw 15px;
     }
+
+    main {
+        margin-top: 100px;
+    }
 }
