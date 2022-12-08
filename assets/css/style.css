@@ -187,6 +187,7 @@ footer {
 .blog {
     display: grid;
     grid-template-columns: 75% 25%;
+    padding: 2.5% 5%;
 }
 
 /* Media queries */
