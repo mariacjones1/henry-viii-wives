@@ -126,15 +126,15 @@ main {
 
 .bio-text {
     grid-column: span 2;
-    padding: 5%;
+    padding: 3% 5%;
     margin: 5%;
     width: 85%;
     background:rgba(161,161,161, 0.3);
 }
 
 .bio-text > h3 {
-    padding-bottom: 5%;
-    font-size: 150%;
+    padding-bottom: 3%;
+    font-size: 140%;
 }
 
 .bio-text > p {
