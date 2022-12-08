@@ -178,3 +178,16 @@ footer {
 .subscribe {
     align-self: center;
 }
+
+/* Media queries */
+
+@media screen and (max-width: 1150px) {
+    header {
+        flex-direction: column;
+        height: 150px;
+    }
+
+    .menu > ul {
+        justify-content: flex-start;
+    }
+}
