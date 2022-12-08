@@ -154,14 +154,14 @@ main {
 /* Footer */
 
 footer {
-    width: 50%;
     margin: 2%;
-    text-align: left;
     display: flex;
+    justify-content: space-between;
 }
 
 .about {
-    font-size: 75%;    
+    font-size: 75%;
+    width: 50%; 
 }
 
 .subscribe {
