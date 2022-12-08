@@ -236,4 +236,8 @@ footer {
     header {
         height: 150px;
     }
+
+    main {
+        margin-top: 150px;
+    }
 }
