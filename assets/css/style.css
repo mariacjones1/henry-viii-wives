@@ -184,10 +184,14 @@ footer {
 @media screen and (max-width: 1150px) {
     header {
         flex-direction: column;
-        height: 150px;
+        height: 100px;
     }
 
     .menu > ul {
         justify-content: flex-start;
+    }
+
+    .menu li {
+        margin: 0 1vw 15px;
     }
 }
