@@ -203,4 +203,16 @@ footer {
     #timeline {
         top: 111px;
     }
+
+    .bio {
+        grid-column-template: 100%;
+    }
+
+    .bio-text {
+        grid-column: span 1;
+    }
+
+    .right {
+        grid-column-start: 1;
+    }
 }
