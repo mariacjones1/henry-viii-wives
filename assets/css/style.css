@@ -200,6 +200,9 @@ footer {
 
     main {
         margin-top: 100px;
+    }
+
+    .index {
         grid-template-columns: 25% 75%;
     }
 
