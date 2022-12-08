@@ -191,7 +191,9 @@ footer {
 }
 
 .posts > div {
-    padding: 2.5% 0;
+    padding: 2.5%;
+    margin: 2.5%;
+    background:rgba(161,161,161, 0.3);
 }
 
 .posts p {
