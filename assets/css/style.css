@@ -89,7 +89,7 @@ main {
 }
 
 #timeline > div {
-    padding: 4vh 1vw;
+    padding: 15% 1vw;
     border-left: 3px solid #310151;
 }
 
@@ -247,7 +247,6 @@ footer {
     }
 
     #timeline > div {
-        padding: 1.5vh 1vw 1.5vh 2.5vw;
         font-size: 90%;
     }
 }
