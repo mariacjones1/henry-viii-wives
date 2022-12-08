@@ -225,3 +225,13 @@ footer {
         margin-right: 5%;
     }
 }
+
+@media screen and (max-width: 675px) {
+    header {
+        height: 150px;
+    }
+
+    body {
+        font-size: 90%;
+    }
+}
