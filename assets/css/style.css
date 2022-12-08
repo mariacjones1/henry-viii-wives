@@ -240,4 +240,8 @@ footer {
     main {
         margin-top: 150px;
     }
+
+    #timeline {
+        top: 161px;
+    }
 }
