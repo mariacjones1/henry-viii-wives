@@ -231,6 +231,10 @@ footer {
     #aragon-bio, #seymour-bio, #howard-bio {
         margin-right: 5%;
     }
+
+    #timeline > div {
+        padding-left: 2vw;
+    }
 }
 
 @media screen and (max-width: 590px) {
