@@ -182,6 +182,13 @@ footer {
     align-self: center;
 }
 
+/* Blog */
+
+.blog {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
 /* Media queries */
 
 @media screen and (max-width: 1150px) {
