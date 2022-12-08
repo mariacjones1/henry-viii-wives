@@ -131,6 +131,11 @@ main {
     background:rgba(161,161,161, 0.3);
 }
 
+.bio-text > h3 {
+    padding-bottom: 5%;
+    font-size: 150%;
+}
+
 .bio img {
     height: 35vh;
 }
