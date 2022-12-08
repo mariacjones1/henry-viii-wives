@@ -163,3 +163,7 @@ footer {
 .about {
     font-size: 75%;    
 }
+
+.subscribe {
+    align-self: center;
+}
