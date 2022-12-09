@@ -213,6 +213,10 @@ footer {
     top: 200px;
 }
 
+.contribute img {
+    padding: 10%;
+}
+
 /* Media queries */
 
 @media screen and (max-width: 1150px) {
