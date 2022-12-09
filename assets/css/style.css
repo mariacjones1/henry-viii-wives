@@ -165,6 +165,10 @@ main {
     margin-right: 0;
 }
 
+.bio > hr {
+    display: none;
+}
+
 /* Footer */
 
 footer {
@@ -288,6 +292,13 @@ footer {
     .bio img {
         max-width: 200px;
         height: auto;
+    }
+
+    .bio > hr {
+        border: 1px solid #310151;
+        width: 90%;
+        display: block;
+        margin-bottom: 2.5%;
     }
 
     .blog {
