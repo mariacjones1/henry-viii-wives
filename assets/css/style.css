@@ -212,6 +212,7 @@ footer {
     position: sticky;
     top: 200px;
     border: 3px solid #310151;
+    padding: 5% 0;
 }
 
 .contribute img {
