@@ -130,7 +130,7 @@ main {
 .bio-text {
     grid-column: span 2;
     padding: 3% 5%;
-    margin: 5%;
+    margin:  2.5% 5%;
     width: 85%;
     background:rgba(161,161,161, 0.3);
 }
