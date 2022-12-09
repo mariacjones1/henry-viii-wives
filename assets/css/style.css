@@ -286,7 +286,7 @@ footer {
 
     .blog {
         padding: 2.5% 1%;
-        grid-template-columns: 70% 30%;
+        grid-template-columns: 100%;
     }
 }
 
