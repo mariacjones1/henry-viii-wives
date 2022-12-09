@@ -206,7 +206,11 @@ footer {
 
 .contribute {
     justify-self: center;
-    margin-top: 10%;
+}
+
+.contribute > div {
+    position: sticky;
+    top: 200px;
 }
 
 /* Media queries */
