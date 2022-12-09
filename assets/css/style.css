@@ -204,6 +204,10 @@ footer {
     padding: 1% 0;
 }
 
+.contribute {
+    justify-self: center;
+}
+
 /* Media queries */
 
 @media screen and (max-width: 1150px) {
