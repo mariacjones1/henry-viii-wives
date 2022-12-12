@@ -131,10 +131,12 @@ main {
     margin-bottom: 2.5%;
     padding: 0 5%;
     font-size: 110%;
+    /* grid-column: span 3; */
 }
 
 .intro i {
     font-size: 200%;
+    /* display: none; */
 }
 
 .intro p {
@@ -271,11 +273,23 @@ footer {
     #timeline {
         top: 111px;
     }
+
+    .intro i {
+        display: none;
+    }
+
+    .intro {
+        grid-column: span 3;
+    }
 }
 
 @media screen and (max-width: 750px) {
     body {
         font-size: 90%;
+    }
+
+    .intro {
+        grid-column: span 1;
     }
 
     .bio {
