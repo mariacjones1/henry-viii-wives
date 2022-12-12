@@ -132,12 +132,10 @@ main {
     margin-bottom: 2.5%;
     padding: 0 5%;
     font-size: 110%;
-    /* grid-column: span 3; */
 }
 
 .intro i {
     font-size: 200%;
-    /* display: none; */
 }
 
 .intro p {
