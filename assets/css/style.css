@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    scroll-padding-top: 100px;
 }
 
 body {    
@@ -249,6 +250,10 @@ footer {
 /* Media queries */
 
 @media screen and (max-width: 1150px) {
+    * {
+        scroll-padding-top: 110px;
+    }
+
     header {
         flex-direction: column;
         height: 100px;
@@ -336,6 +341,10 @@ footer {
 }
 
 @media screen and (max-width: 590px) {
+    * {
+        scroll-padding-top: 425px;
+    }
+
     header {
         height: 150px;
     }
