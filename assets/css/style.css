@@ -127,6 +127,20 @@ main {
     margin-top: 1%;
     place-items: center;
 }
+.intro {
+    margin-bottom: 2.5%;
+    padding: 0 5%;
+    font-size: 110%;
+}
+
+.intro i {
+    font-size: 200%;
+}
+
+.intro p {
+    padding: 2.5%;
+    border: 2px inset #310151;
+}
 
 .bio-text {
     grid-column: span 2;
