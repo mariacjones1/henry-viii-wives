@@ -4,6 +4,10 @@
     margin: 0;
     padding: 0;
     border: 0;
+}
+
+html {
+    height: 100%;
     scroll-padding-top: 100px;
 }
 
@@ -11,6 +15,9 @@ body {
     background: rgba(255, 233, 255);
     font-family: Merriweather, serif;
     color: #310151;
+    position: relative;
+    min-height: 82.5%;
+    padding-bottom: 10vh;
 }
 
 /* Headings */
@@ -191,6 +198,10 @@ footer {
     width: 80%;
     display: flex;
     justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 
 .about {
@@ -250,6 +261,7 @@ footer {
 .resources {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 0 1%;
 }
 
 .resources > div {
