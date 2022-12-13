@@ -281,7 +281,9 @@ footer {
 }
 
 .resources iframe {
-    padding-left: 2rem;
+    padding: 1rem 2rem;
+    max-width: 80vw;
+    max-height: 50vw;
 }
 
 /* Media queries */
@@ -327,6 +329,14 @@ footer {
     .bio img {
         max-width: 275px;
         height: auto;
+    }
+
+    .resources {
+        grid-template-columns: 1fr;
+    }
+
+    .resources iframe {
+        padding: 0;
     }
 }
 
