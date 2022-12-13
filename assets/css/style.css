@@ -254,6 +254,8 @@ footer {
 
 .resources > div {
     padding: 2%;
+    border: 2px dashed #310151;
+    margin: 2%;
 }
 
 .resources li {
