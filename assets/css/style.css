@@ -245,6 +245,23 @@ footer {
     text-align: center;
 }
 
+/* More resources */
+
+.resources {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.resources > div {
+    padding: 2%;
+}
+
+.resources li {
+    list-style-type: none;
+    line-height: 25px;
+    padding-left: 15px;
+}
+
 /* Media queries */
 
 @media screen and (max-width: 1150px) {
