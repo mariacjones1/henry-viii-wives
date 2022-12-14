@@ -228,6 +228,16 @@ footer {
 
 .form {
     display: inline-block;
+    max-width: 210px;
+}
+
+input[type=submit] {
+    font-family: inherit;
+    padding: 10%;
+    margin: 10px auto;
+    background-color: #310151;
+    color: white;
+    border-radius: 5px;
 }
 
 /* Blog */
@@ -269,7 +279,7 @@ footer {
     width: 80%;
 }
 
-.contribute p {
+.contribute h3, .contribute p {
     text-align: center;
 }
 
