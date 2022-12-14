@@ -202,10 +202,10 @@ footer {
     bottom: 0;
     right: 0;
     left: 0;
+    font-size: 75%;
 }
 
 .about {
-    font-size: 75%;
     width: 65%; 
 }
 
