@@ -102,9 +102,8 @@ The Real Wives of Henry VIII is a site aimed to educate users about each of Henr
 
 ### Final site tested on different devices and screen sizes
 - Checked on large monitor, laptop screen and iPhone 11, as well as using Chrome dev tools (toggle device and responsive).
-    - Footer overlaps main body content on some mobile phone devices turned to landscape.
-
-
+    - Footer overlaps main body content on some mobile phone devices turned to landscape. **Solution:** Change padding-bottom unit on body from vh to px to have more control over.
+    - No other issues found.
 
 ### Validator testing
 - HTML tested using [W3C validator](https://validator.w3.org/)
@@ -116,6 +115,10 @@ The Real Wives of Henry VIII is a site aimed to educate users about each of Henr
 
 - CSS tested using [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
     - Error found on line 132: _, is an incorrect operator : 1fr,2fr,1fr_
-        - Property removed from class as it's not required for the page layout. No other errors returned.
+        - Property removed from class as it's not required for the page layout.
+    - No other errors returned.
     - Warning found on line 1:_'Imported style sheets are not checked in direct input and file upload modes_
-        - External style sheet used for Google fonts not checked by external validator. Warning okay to ignore. No other warnings returned.
+        - External style sheet used for Google fonts not checked by external validator. Warning okay to ignore.
+    - Warnings found on lines 98 and 272: _-webkit-sticky is a vendor extension_
+        - Property used to allow sticky positioning in Safari browsers. Warning okay to ignore.
+    - No other warnings returned.
