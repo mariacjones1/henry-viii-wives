@@ -95,6 +95,7 @@ main {
 #timeline {
     margin: 11px;
     position: sticky;
+    position: -webkit-sticky; /* Safari */
     top: 86px;
     align-self: start;
 }
@@ -268,6 +269,7 @@ input[type=submit] {
 
 .contribute > div {
     position: sticky;
+    position: -webkit-sticky; /* Safari */
     top: 200px;
     border: 3px solid #310151;
     padding: 5% 0;
