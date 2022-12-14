@@ -195,7 +195,6 @@ main {
 
 footer {
     margin: 2%;
-    /* width: 90%; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -440,6 +439,14 @@ footer {
     #timeline > div::before {
         width: 7.5px;
         height: 7.5px;
+    }
+
+    .about {
+        width: 90%;
+    }
+
+    .subscribe {
+        width: 90%;
     }
 }
 
