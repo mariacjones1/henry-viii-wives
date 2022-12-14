@@ -90,9 +90,21 @@ The Real Wives of Henry VIII is a site aimed to educate users about each of Henr
 ![More Resources page wireframe for all screen sizes](documentation/more-resources.png)
 
 ## Testing
-
+### Issues found and fixed during development
 - **Issue:** On homepage, when the user clicks on on of the timeline links, the page jumps to the correct section but the top is hidden by the fixed header. **Solution:** Add 'scroll-padding-top to the html element.
 - **Issue:** On More Resources page, the content is not enough to fill larger screens and the footer doesn't sit at the bottom of the screen. Fixed positioning won't work as it should not be visible over body content and the user must scroll down to it on other pages. **Solution:** Set min-height and padding-bottom on the body element for all pages.
+
+### Final site tested in browsers
+- Chrome: no issues
+- Firefox: no issues
+- Edge: no issues
+- Safari: position: sticky doesn't work; position: -webkit-sticky added to timeline and contribute div to ensure functionality in Safari browsers.
+
+### Final site tested on different devices and screen sizes
+- Checked on large monitor, laptop screen and iPhone 11, as well as using Chrome dev tools (toggle device and responsive).
+    - Footer overlaps main body content on some mobile phone devices turned to landscape.
+
+
 
 ### Validator testing
 - HTML tested using [W3C validator](https://validator.w3.org/)
