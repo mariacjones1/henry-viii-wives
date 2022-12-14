@@ -90,3 +90,18 @@ The Real Wives of Henry VIII is a site aimed to educate users about each of Henr
 ![More Resources page wireframe for all screen sizes](documentation/more-resources.png)
 
 ## Testing
+
+
+### Validator testing
+- HTML using [W3C validator](https://validator.w3.org/)
+    - index.html no errors or warnings.
+    - blog.html warning found: _Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed_ [line 55].
+        - First paragraph element changed to h3 element and styled accordingly in CSS. No other errors or warnings returned.
+    - more-resources.html error found: _The frameborder attribute on the iframe element is obsolete. Use CSS instead_ [line 94].
+        - Frameborder attribute removed from element. No CSS changes needed as no border is required. No other errors or warnings returned.
+
+- CSS using [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+    - Error found on line 132: _, is an incorrect operator : 1fr,2fr,1fr_
+        - Property removed from class as it's not required for the page layout. No other errors returned.
+    - Warning found on line 1:_'Imported style sheets are not checked in direct input and file upload modes_
+        - External style sheet used for Google fonts not checked by external validator. Warning okay to ignore. No other warnings returned.
