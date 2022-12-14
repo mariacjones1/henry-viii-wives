@@ -16,7 +16,7 @@ body {
     font-family: Merriweather, serif;
     color: #310151;
     position: relative;
-    min-height: 82.5%;
+    min-height: 72.5%;
     padding-bottom: 20vh;
 }
 
@@ -208,7 +208,7 @@ footer {
 
 .about {
     width: 60%;
-    align-self: center;
+    align-self: flex-end;
     padding-bottom: 1%;
 }
 
