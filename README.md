@@ -93,6 +93,7 @@ The Real Wives of Henry VIII is a site aimed to educate users about each of Henr
 ### Issues found and fixed during development
 - **Issue:** On homepage, when the user clicks on on of the timeline links, the page jumps to the correct section but the top is hidden by the fixed header. **Solved:** Added 'scroll-padding-top to the html element.
 - **Issue:** On More Resources page, the content is not enough to fill larger screens and the footer doesn't sit at the bottom of the screen. Fixed positioning won't work as it should not be visible over body content and the user must scroll down to it on other pages. **Solved:** Set min-height and padding-bottom on the body element for all pages.
+- **Issue:** Form submit doesn't work. **Solved:** Form element not used - added around existing form elements and retested; confirmed it is working. Also added 'required' to inputs.
 
 ### Final site tested in browsers
 - Chrome: no issues
@@ -124,6 +125,25 @@ The Real Wives of Henry VIII is a site aimed to educate users about each of Henr
         - Property used to allow sticky positioning in Safari browsers. Warning okay to ignore.
     - No other warnings returned.
 
+### Dev tools - Lighthouse
+- Homepage:
+    - Performance: 94
+    - Accessability: 100
+    - Best Practices: 92
+    - SEO: 100
+
+- Blog:
+    - Performance: 98
+    - Accessability: 97
+    - Best Practices: 92
+    - SEO: 100
+
+- More Resources:
+    - Performance: 95
+    - Accessability: 98
+    - Best Practices: 83 > Issues come from external links and embedded video loading and cookies. All sites confirmed to load and open in a new tab, and video user controls confirmed to work.
+    - SEO: 100
+
 ## Deployment
 This site was deployed through GitHib pages using the following steps:
 1. Open the GitHub repository and go to Settings
@@ -143,6 +163,7 @@ The live link can be found here: [https://mariacjones1.github.io/henry-viii-wive
 - The crown icons on the homepage were taken from [Font Awesome](https://fontawesome.com/).
 - Colours were chosen using [ColorSpcae](https://mycolor.space/).
 - Fonts were chosen using [Font Joy](https://fontjoy.com/) and found on [Google Fonts](https://fonts.google.com/).
+- Form action link taken from Code Institute coding challenges.
 
 ### Media
 - Portraits of Catherine of Aragon, Anne Boleyn, Jane Seymour, Anne of Cleves and Katherine Parr were found on [Wikipedia](https://en.wikipedia.org/wiki/Wives_of_Henry_VIII).
