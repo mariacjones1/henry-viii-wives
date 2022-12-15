@@ -226,7 +226,7 @@ footer {
     border: 1px solid #310151;
 }
 
-.form {
+form > div {
     display: inline-block;
     max-width: 210px;
 }
