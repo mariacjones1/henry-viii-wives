@@ -1,5 +1,5 @@
 # The Real Wives of Henry VIII
-The Real Wives of Henry VIII is a site aimed to educate users about each of Henry VIII's wives. It will be targeted toward people who want to know more biographical details about the women themselves, not just as a part of Henry's story, and will also offer a place to share and read opinion pieces on the subject. There will also be an option to subscribe, so users can be notified of new content. The site should be responsive so that it can be easily viewed on desktop, tablet and mobile devices.
+The Real Wives of Henry VIII is a site aimed to educate users about each of Henry VIII's wives. It will be targeted toward people who want to know more biographical details about the women themselves, not just as a part of Henry's story, and will also offer a place to share and read opinion pieces on the subject. There will also be an option to subscribe, so users can be notified of new content. Finally, it will also be somewhere they can find additional resources, should they want further information. The site should be responsive so that it can be easily viewed on desktop, tablet and mobile devices.
 
 ![Responsive mock-up](documentation/responsive-mock-up.png)
 
@@ -160,7 +160,7 @@ The live link can be found here: [https://mariacjones1.github.io/henry-viii-wive
 - All content (biographies and blogs) was written by me, with some research done using Wikipedia to confirm dates and names.
 - Other websites were found using Google.
 - Book recommendations were found on [goodreads](https://www.goodreads.com/shelf/show/tudor-nonfiction).
-- The crown icons on the homepage were taken from [Font Awesome](https://fontawesome.com/).
+- The crown icons on the homepage and the link, book and theatre bullets on the More Resources page were taken from [Font Awesome](https://fontawesome.com/).
 - Colours were chosen using [ColorSpcae](https://mycolor.space/).
 - Fonts were chosen using [Font Joy](https://fontjoy.com/) and found on [Google Fonts](https://fonts.google.com/).
 - Form action link taken from Code Institute coding challenges.
