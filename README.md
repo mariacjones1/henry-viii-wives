@@ -123,3 +123,42 @@ The Real Wives of Henry VIII is a site aimed to educate users about each of Henr
     - Warnings found on lines 98 and 272: _-webkit-sticky is a vendor extension_
         - Property used to allow sticky positioning in Safari browsers. Warning okay to ignore.
     - No other warnings returned.
+
+## Deployment
+This site was deployed through GitHib pages using the following steps:
+1. Open the GitHub repository and go to Settings
+2. Go to Pages in the column on the left-hand side
+3. Source: Deploy from a branch should be automatically selected. From the drop-down menu underneath Branch, select main and save.
+4. Refresh the page after a few minutes and you will see that the site is live, with a link for you to access it.
+
+The live link can be found here: [https://mariacjones1.github.io/henry-viii-wives/](https://mariacjones1.github.io/henry-viii-wives/)
+
+![Screenshot showing page has been deployed on GitHub](documentation/github-deploy.png)
+
+## Credits
+### Content
+- All content (biographies and blogs) was written by me, with some research done using Wikipedia to confirm dates and names.
+- Other websites were found using Google.
+- Book recommendations were found on [goodreads](https://www.goodreads.com/shelf/show/tudor-nonfiction).
+- The crown icons on the homepage were taken from [Font Awesome](https://fontawesome.com/).
+- Colours were chosen using [ColorSpcae](https://mycolor.space/).
+- Fonts were chosen using [Font Joy](https://fontjoy.com/) and found on [Google Fonts](https://fonts.google.com/).
+
+### Media
+- Portraits of Catherine of Aragon, Anne Boleyn, Jane Seymour, Anne of Cleves and Katherine Parr were found on [Wikipedia](https://en.wikipedia.org/wiki/Wives_of_Henry_VIII).
+- Portrait of Katheryn Howard was found on [On The Tudor Trail](https://onthetudortrail.com/Blog/2019/05/14/the-portraiture-of-queen-katherine-howard-by-conor-byrne/).
+- Image of parchment and quill was taken from [Shutterstock](https://www.shutterstock.com/image-photo/old-papyrus-paper-feather-quill-glass-176593856).
+- Video of SIX The Musical Tony Awards performance was taken from [YouTube](https://www.youtube.com/watch?v=egqqtAo8WSI&ab_channel=SIX).
+
+### Additional coding resources
+- Flexbox: [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and [Kevin Powell YouTube](https://www.youtube.com/watch?v=u044iM9xsWU&ab_channel=KevinPowell)
+- CSS Grid: [CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/) and [Kevin Powell YouTube](https://www.youtube.com/watch?v=rg7Fvvl3taU&t=1224s&ab_channel=KevinPowell)
+- Getting the footer to stick at the bottom of the page, regardless of main content height: [Code Convey](https://codeconvey.com/footer-at-bottom-of-page-but-not-fixed/)
+- Solution to prevent anchor links from being hidden behind fixed header: [Publii](https://getpublii.com/blog/one-line-css-solution-to-prevent-anchor-links-from-scrolling-behind-a-sticky-header.html)
+- General help:
+    - [w3 schools](https://www.w3schools.com/)
+    - [MDN](https://developer.mozilla.org/en-US/)
+    - [stack overflow](https://stackoverflow.com/)
+
+### Mentor
+Can Sucullu helped me plan and understand how to consider the purpose and relevance of the site and each feature when first approaching the project, and to keep this in mind as I continued to develop it. He also reviewed my work and offered advice to help me improve it, such as adding horizontal rules between the biographies when they appear as a single column on smaller screens.
