@@ -165,8 +165,8 @@ The Real Wives of Henry VIII is a site aimed to educate users about each of Henr
 This site was deployed through GitHib pages using the following steps:
 1. Open the GitHub repository and go to Settings
 2. Go to Pages in the column on the left-hand side
-3. Source: Deploy from a branch should be automatically selected. From the drop-down menu underneath Branch, select main and save.
-4. Refresh the page after a few minutes and you will see that the site is live, with a link for you to access it.
+3. Select Source: Deploy from a branch. From the drop-down menu underneath Branch, select main and save
+4. Refresh the page after a few minutes and you will see that the site is live, with a link for you to access it
 
 The live link can be found here: [https://mariacjones1.github.io/henry-viii-wives/](https://mariacjones1.github.io/henry-viii-wives/)
 
@@ -187,7 +187,7 @@ The live link can be found here: [https://mariacjones1.github.io/henry-viii-wive
 - Portrait of Katheryn Howard was found on [On The Tudor Trail](https://onthetudortrail.com/Blog/2019/05/14/the-portraiture-of-queen-katherine-howard-by-conor-byrne/).
 - Image of parchment and quill was taken from [Shutterstock](https://www.shutterstock.com/image-photo/old-papyrus-paper-feather-quill-glass-176593856).
 - Video of SIX The Musical Tony Awards performance was taken from [YouTube](https://www.youtube.com/watch?v=egqqtAo8WSI&ab_channel=SIX).
-- Favicon was taken from [favicon.io](https://favicon.io/emoji-favicons/crown)
+- Favicon was taken from [favicon.io](https://favicon.io/emoji-favicons/crown).
 
 ### Additional coding resources
 - Flexbox: [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and [Kevin Powell YouTube](https://www.youtube.com/watch?v=u044iM9xsWU&ab_channel=KevinPowell)
