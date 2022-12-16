@@ -3,6 +3,8 @@ The Real Wives of Henry VIII is a site aimed to educate users about each of Henr
 
 Final page: [https://mariacjones1.github.io/henry-viii-wives/](https://mariacjones1.github.io/henry-viii-wives/)
 
+<hr>
+
 ## User goals
 - The primary user goal of the site is to find free information about Henry VIII's wives - who they were and what happened to them.
 - Users will also be able to find and share opinions on the women, either on the overall subject or on specific topics which fall under the subject.
@@ -15,6 +17,8 @@ Final page: [https://mariacjones1.github.io/henry-viii-wives/](https://mariacjon
 - The site should provide an opportunity and encourage users to subscribe to new content.
 
 ![Responsive mock-up](documentation/responsive-mock-up.png)
+
+<hr>
 
 ## Features
 
@@ -99,25 +103,46 @@ Final page: [https://mariacjones1.github.io/henry-viii-wives/](https://mariacjon
 - Add a comments section to blog posts so users can share and discuss their opinions.
 - Create a social media presence to drive traffic and reach new users, and add links to the footer.
 
+<hr>
+
 ## Wireframes
 [Balsamiq](https://balsamiq.com/) was used to create initial wireframes for the project. Two wireframes each were made for the homepage and the blog page, to account for changes across screen sizes, and one was made for the more resources page as the initial design did not require a change in layout (beyond header changes already shown on the other two pages). Layout changes from initial design to final website include:
 - No inclusion of search bar (as mentioned above, this will be included as a feature in the future);
 - 'About us' and 'Subscribe' sections are always at the bottom of the page, side-by-side on larger screens and one above the other on smaller screens (not centred);
-- The timeline on the homepage remains at the side of the screen even on smaller screen sizes. This allows for easier navigation of the bio sections and all content is resized accordingly;
+- The timeline on the homepage remains at the side of the screen even on smaller screen sizes, rather than removing sticky positioning and only having it show at the top of the page. This allows for easier navigation of the bio sections and all content is resized accordingly;
 - 'Contact' was removed from the navigation menu and no such page was created as it was deemed unnecessary - the option to subscribe is on each page and information to send in blog posts is on the blog page. If social media links were to be added, they would also be placed in the footer on each page. If the page is created in the future, it will be readded to the navigation menu, but there are no immediate plans for it;
 - Blog posts are not collapsed as JavaScript is required to do this; and
 - 'More Resources' uses a two-by-two grid layout on larger screens to make better use of space. The single-column layout is still used on smaller screens.
 
 ### Homepage
+<details><summary>For larger screens (click to expand)</summary>
+
 ![Homepage wireframe for larger screens](documentation/homepage-large.png)
+</details>
+
+<details><summary>For smaller screens (click to expand)</summary>
+
 ![Homepage wireframe for smaller screens](documentation/homepage-small.png)
+</details>
 
 ### Blog page
+<details><summary>For larger screens (click to expand)</summary>
+
 ![Blog page wireframe for larger screens](documentation/blog-large.png)
+</details>
+
+<details><summary>For smaller screens (click to expand)</summary>
+
 ![Blog page wireframe for smaller screens](documentation/blog-small.png)
+</details>
 
 ### More Resources page
+<details><summary>For all screen sizes (click to expand)</summary>
+
 ![More Resources page wireframe for all screen sizes](documentation/more-resources-all-sizes.png)
+</details>
+
+<hr>
 
 ## Testing
 ### Issues found and fixed during development
@@ -161,22 +186,24 @@ Final page: [https://mariacjones1.github.io/henry-viii-wives/](https://mariacjon
 
 ### Dev tools - Lighthouse
 - Homepage:
-    - Performance: 94
+    - Performance: 100
     - Accessability: 100
     - Best Practices: 92
     - SEO: 100
 
 - Blog:
-    - Performance: 98
+    - Performance: 99
     - Accessability: 97
     - Best Practices: 92
     - SEO: 100
 
 - More Resources:
-    - Performance: 95
+    - Performance: 97
     - Accessability: 98
     - Best Practices: 83 > Issues come from external links and embedded video loading and cookies. All sites confirmed to load and open in a new tab, and video user controls confirmed to work.
     - SEO: 100
+
+<hr>
 
 ## Deployment
 This site was deployed through GitHub pages using the following steps:
@@ -191,6 +218,8 @@ The live link can be found here: [https://mariacjones1.github.io/henry-viii-wive
 
 ### Commit messages
 Commit messages for this project were sometimes too small and only addressed part of a fix, especially as elements were tweaked and restyled or multiple things were done to the same element to achieve desired styling. Future commit messages should be optimised to be more concise.
+
+<hr>
 
 ## Credits
 ### Content
