@@ -58,6 +58,23 @@ The Real Wives of Henry VIII is a site aimed to educate users about each of Henr
 
 ![Blog page](documentation/blog.png)
 
+- More Resources
+    - Site features a page with additional external resources should the user wish to find out more information, including Wikipedia articles and other site links, book recommendations and entertainment based on the subject matter. Sections are clearly divided to help the user find what they might be looking for.
+    - All links open in a new tab so the user can easily come back to the website.
+
+![More Resources page](documentation/more-resources.png)
+
+- Custom 404 error page
+    - Users will see a custom 404 error page if they try to access non-existent pages on the site.
+    - Page uses humour and a cartoon image to enhance user experience, and a link back to the homepage.
+
+![404 page](documentation/404.png)
+
+- Favicon
+    - Site uses a custom favicon to enhance user experience. A crown emoji was selected to represent the queens and royalty.
+
+![Crown favicon](documentation/crown-favicon.png)
+
 - Colour scheme selection
     - Dark purple was chosen as the key colour as it used to be strongly associated with royalty.
     - Complementing shades of light purple and grey were chosen using [ColorSpace](mycolor.space).
@@ -87,7 +104,7 @@ The Real Wives of Henry VIII is a site aimed to educate users about each of Henr
 ![Blog page wireframe for smaller screens](documentation/blog-small.png)
 
 ### More Resources page
-![More Resources page wireframe for all screen sizes](documentation/more-resources.png)
+![More Resources page wireframe for all screen sizes](documentation/more-resources-all-sizes.png)
 
 ## Testing
 ### Issues found and fixed during development
@@ -170,6 +187,7 @@ The live link can be found here: [https://mariacjones1.github.io/henry-viii-wive
 - Portrait of Katheryn Howard was found on [On The Tudor Trail](https://onthetudortrail.com/Blog/2019/05/14/the-portraiture-of-queen-katherine-howard-by-conor-byrne/).
 - Image of parchment and quill was taken from [Shutterstock](https://www.shutterstock.com/image-photo/old-papyrus-paper-feather-quill-glass-176593856).
 - Video of SIX The Musical Tony Awards performance was taken from [YouTube](https://www.youtube.com/watch?v=egqqtAo8WSI&ab_channel=SIX).
+- Favicon was taken from [favicon.io](https://favicon.io/emoji-favicons/crown)
 
 ### Additional coding resources
 - Flexbox: [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and [Kevin Powell YouTube](https://www.youtube.com/watch?v=u044iM9xsWU&ab_channel=KevinPowell)
