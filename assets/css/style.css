@@ -321,6 +321,10 @@ input[type=submit] {
     padding: 10%;
 }
 
+.error > h2 {
+    font-size: 300%;
+}
+
 .error > img {
     height: 50vh;
     max-height: 500px;
