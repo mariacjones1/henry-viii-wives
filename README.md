@@ -1,6 +1,19 @@
 # The Real Wives of Henry VIII
 The Real Wives of Henry VIII is a site aimed to educate users about each of Henry VIII's wives. It will be targeted toward people who want to know more biographical details about the women themselves, not just as a part of Henry's story, and will also offer a place to share and read opinion pieces on the subject. There will also be an option to subscribe, so users can be notified of new content. Finally, it will also be somewhere they can find additional resources, should they want further information. The site should be responsive so that it can be easily viewed on desktop, tablet and mobile devices.
 
+Final page: [https://mariacjones1.github.io/henry-viii-wives/](https://mariacjones1.github.io/henry-viii-wives/)
+
+## User goals
+- The primary user goal of the site is to find free information about Henry VIII's wives - who they were and what happened to them.
+- Users will also be able to find and share opinions on the women, either on the overall subject or on specific topics which fall under the subject.
+- Users will be able to find external resources, should they wish to have more information on Henry VIII's wives or on any of the individual women themselves.
+- Users will be able to access and enjoy the site on any device.
+
+## Owner goals
+- The primary site owner goal is to provide a free educational resource to anyone who wants to learn more about Henry VIII's wives.
+- The site should focus on the women, rather than Henry VIII. It should be made clear to the user that this is the case.
+- The site should provide an opportunity and encourage users to subscribe to new content.
+
 ![Responsive mock-up](documentation/responsive-mock-up.png)
 
 ## Features
@@ -141,6 +154,10 @@ The Real Wives of Henry VIII is a site aimed to educate users about each of Henr
     - Warnings found on lines 98 and 272: _-webkit-sticky is a vendor extension_
         - Property used to allow sticky positioning in Safari browsers. Warning okay to ignore.
     - No other warnings returned.
+    
+### Colours/contrast checker
+- Checked on [WebAIM](https://webaim.org/resources/contrastchecker/)
+    - Contrast Ratio: 14.63:1 (pass)
 
 ### Dev tools - Lighthouse
 - Homepage:
@@ -162,7 +179,7 @@ The Real Wives of Henry VIII is a site aimed to educate users about each of Henr
     - SEO: 100
 
 ## Deployment
-This site was deployed through GitHib pages using the following steps:
+This site was deployed through GitHub pages using the following steps:
 1. Open the GitHub repository and go to Settings
 2. Go to Pages in the column on the left-hand side
 3. Select Source: Deploy from a branch. From the drop-down menu underneath Branch, select main and save
@@ -172,13 +189,16 @@ The live link can be found here: [https://mariacjones1.github.io/henry-viii-wive
 
 ![Screenshot showing page has been deployed on GitHub](documentation/github-deploy.png)
 
+### Commit messages
+Commit messages for this project were sometimes too small and only addressed part of a fix, especially as elements were tweaked and restyled or multiple things were done to the same element to achieve desired styling. Future commit messages should be optimised to be more concise.
+
 ## Credits
 ### Content
 - All content (biographies and blogs) was written by me, with some research done using Wikipedia to confirm dates and names.
 - Other websites were found using Google.
 - Book recommendations were found on [goodreads](https://www.goodreads.com/shelf/show/tudor-nonfiction).
 - The crown icons on the homepage and the link, book and theatre bullets on the More Resources page were taken from [Font Awesome](https://fontawesome.com/).
-- Colours were chosen using [ColorSpcae](https://mycolor.space/).
+- Colours were chosen using [ColorSpace](https://mycolor.space/).
 - Fonts were chosen using [Font Joy](https://fontjoy.com/) and found on [Google Fonts](https://fonts.google.com/).
 - Form action link taken from Code Institute coding challenges.
 
