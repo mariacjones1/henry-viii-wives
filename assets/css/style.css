@@ -314,6 +314,17 @@ input[type=submit] {
     max-height: 50vw;
 }
 
+/* 404 page */
+
+.error {
+    text-align: center;
+}
+
+.error > img {
+    height: 50vh;
+    max-height: 500px;
+}
+
 /* Media queries */
 
 @media screen and (max-width: 1150px) {
