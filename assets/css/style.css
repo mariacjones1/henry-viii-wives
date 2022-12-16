@@ -325,6 +325,7 @@ input[type=submit] {
     height: 50vh;
     max-height: 500px;
     padding: 5%;
+    mix-blend-mode: multiply;
 }
 
 /* Media queries */
