@@ -3,6 +3,8 @@ The Real Wives of Henry VIII is a site aimed to educate users about each of Henr
 
 Final page: [https://mariacjones1.github.io/henry-viii-wives/](https://mariacjones1.github.io/henry-viii-wives/)
 
+![Responsive mock-up](documentation/responsive-mock-up.png)
+
 <hr>
 
 ## User goals
@@ -15,8 +17,6 @@ Final page: [https://mariacjones1.github.io/henry-viii-wives/](https://mariacjon
 - The primary site owner goal is to provide a free educational resource to anyone who wants to learn more about Henry VIII's wives.
 - The site should focus on the women, rather than Henry VIII. It should be made clear to the user that this is the case.
 - The site should provide an opportunity and encourage users to subscribe to new content.
-
-![Responsive mock-up](documentation/responsive-mock-up.png)
 
 <hr>
 
