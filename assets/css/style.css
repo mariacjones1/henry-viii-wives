@@ -318,11 +318,13 @@ input[type=submit] {
 
 .error {
     text-align: center;
+    padding: 10%;
 }
 
 .error > img {
     height: 50vh;
     max-height: 500px;
+    padding: 5%;
 }
 
 /* Media queries */
