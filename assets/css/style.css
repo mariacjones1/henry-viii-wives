@@ -318,6 +318,8 @@ input[type=submit] {
 
 .error {
     text-align: center;
+    position: absolute;
+    width: 100%;
 }
 
 .error > h2 {
@@ -325,7 +327,8 @@ input[type=submit] {
 }
 
 .error > img {
-    height: 50vh;
+    width: 50vw;
+    max-width: 400px;
     max-height: 500px;
     padding: 5%;
     mix-blend-mode: multiply;
@@ -402,7 +405,8 @@ input[type=submit] {
     }
 
     .error {
-        margin-top: 25px;
+        margin: 25px 0 0 5%;
+        max-width: 90%;
     }
 }
 
